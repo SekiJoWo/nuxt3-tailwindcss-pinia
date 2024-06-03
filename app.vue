@@ -4,6 +4,7 @@
     <NuxtLayout>
         <NuxtPage />
     </NuxtLayout>
+    <!-- <UNotifications /> -->
 </template>
 <style>
     html,
@@ -12,6 +13,6 @@
         height: 100vh;
         margin: 0;
         padding: 0;
-        background: #000000;
+        background: #ffffff;
     }
 </style>

@@ -6,5 +6,5 @@ export default defineNuxtConfig({
             ApiBase: '/api/',
         },
     },
-    modules: ['@pinia/nuxt', '@nuxt/ui', '@pinia-plugin-persistedstate/nuxt'],
+    modules: ['@pinia/nuxt', '@nuxt/ui', '@pinia-plugin-persistedstate/nuxt','nuxt-icon'],
 });
