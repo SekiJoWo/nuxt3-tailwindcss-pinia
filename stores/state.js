@@ -1,11 +1,17 @@
 import { defineStore } from 'pinia';
 
-export const useStateStore = defineStore('state', () => {
-    const State = reactive({
-        area: 'bns',
-    });
+export const useStateStore = defineStore(
+    'state',
+    () => {
+        const State = reactive({
+            area: 'bns',
+        });
 
-    return {
-        State,
-    };
-});
+        return {
+            State,
+        };
+    },
+    {
+        persist: true,
+    }
+);
